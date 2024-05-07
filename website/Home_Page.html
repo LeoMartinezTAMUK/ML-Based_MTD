@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>M.T.D</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  html,body,h1,h2,h3,h4,h5,h6 {font-family: "Arial", sans-serif;}
+  .w3-sidebar {
+    z-index: 3;
+    width: 250px;
+    top: 43px;
+    bottom: 0;
+    height: inherit;
+    right: 0;
+    left: auto;
+  }
+  p {
+    text-align: justify;
+  }
+  .title-container {
+    text-align: Center;
+  }
+  .title-container h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0 auto;
+    max-width: 40%; 
+  }
+  </style>
+</head>
+<body>
+<!--Title-->
+<div class="w3-row w3-padding-64">
+  <div class="w3-twothird w3-container">
+    <div class="title-container">
+      <h2 class="w3-text-teal">Multi-Threat Detection: A well-rounded approach for common attacks found in cyber space</h2>
+  </div>
+</div>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-white">Home</a>
+    <a href="About_Page.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+    <a href="Team_Page.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-them-l5 " id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Extra Information:</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="https://www.cisa.gov/news-events/news/what-cybersecurity" targer="blank">CyberSecurity</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="https://www.geeksforgeeks.org/data-stream-in-data-analytics/#">Data Streams</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="https://www.mcafee.com/en-us/antivirus/malware.html">Malware</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="https://mitsloan.mit.edu/ideas-made-to-matter/machine-learning-explained">Machine Learning</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="https://aws.amazon.com/what-is/deep-learning/">Deep Learning</a>
+</nav> 
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Machine Learning</h1>
+      <p>Machine learning is a branch of artificial intelligence (AI) that focuses on the development of algorithms capable of learning from and making predictions or decisions based on data. At its core, machine learning involves the construction of mathematical models that can analyze large sets of data to identify patterns, trends, and insights. These models are trained using algorithms that iteratively adjust their parameters to minimize errors and improve performance over time. One of the key advantages of machine learning is its ability to handle complex and large-scale datasets, extracting meaningful information and making accurate predictions in various domains such as finance, healthcare, marketing, and more.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-padding-large w3-padding-32 w3-center"></p>
+      <p class="w3-padding-large w3-padding-64 w3-center"></p>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Deep Learning</h1>
+      <p>Deep learning is a subset of machine learning that deals with neural networks, particularly deep neural networks with multiple layers. Inspired by the structure and function of the human brain, deep learning algorithms attempt to emulate the way neurons communicate and process information. Deep neural networks consist of interconnected layers of artificial neurons, each layer extracting features from the input data and passing them on to the next layer for further abstraction. This hierarchical representation allows deep learning models to automatically learn intricate patterns and representations from raw data, making them well-suited for tasks such as image and speech recognition, natural language processing, autonomous driving, and many others. Deep learning has gained widespread attention and popularity due to its ability to achieve state-of-the-art performance in various challenging tasks, often surpassing traditional machine learning methods in accuracy and efficiency.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-padding-large w3-padding-32 w3-center"></p>
+      <p class="w3-padding-large w3-padding-64 w3-center"></p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a class="w3-button w3-hover-black" href="index.html">1</a>
+      <a class="w3-button w3-black" href="Senior_Project2.html">2</a>
+    </div>
+  </div>
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+ function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.transition = "right 0.5s ease";
+    mySidebar.style.right = '0';
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>

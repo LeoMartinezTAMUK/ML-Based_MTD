@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>M.T.D</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  html,body,h1,h2,h3,h4,h5,h6 {font-family: "Arial", sans-serif;}
+  .w3-sidebar {
+    z-index: 3;
+    width: 250px;
+    top: 43px;
+    bottom: 0;
+    height: inherit;
+    right: 0;
+    left: auto;
+  }
+  p {
+    text-align: justify;
+  }
+  .title-container {
+    text-align: Center;
+  }
+  .title-container h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0 auto;
+    max-width: 40%; 
+  }
+  </style>
+</head>
+<body>
+<!--Title-->
+<div class="w3-row w3-padding-64">
+  <div class="w3-twothird w3-container">
+    <div class="title-container">
+      <h2 class="w3-text-teal">Multi-Threat Detection: A well-rounded approach for common attacks found in cyber space</h2>
+  </div>
+</div>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Home</a>
+    <a href="About_Page.html" class="w3-bar-item w3-button w3-hide-small w3-white">About</a>
+    <a href="Team_Page.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-them-l5 " id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Extra Information:</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="https://www.cisa.gov/news-events/news/what-cybersecurity" targer="blank">CyberSecurity</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="https://www.geeksforgeeks.org/data-stream-in-data-analytics/#">Data Streams</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="https://www.mcafee.com/en-us/antivirus/malware.html">Malware</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="https://mitsloan.mit.edu/ideas-made-to-matter/machine-learning-explained">Machine Learning</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="https://aws.amazon.com/what-is/deep-learning/">Deep Learning</a>
+</nav> 
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal"> Start of M.T.D</h1>
+      <p>The idea of our network intrusion program traces back to a pivotal moment when one of our team members, still in high school at the time, found himself immersed in the world of online gaming. While indulging in flash games on a website inundated with intrusive advertisements, an unexpected disruption occurred. His energetic dog stirred up a commotion in the dinnig room, casuing him to lose track of what his cursor was clicking. Upon returning his focus to the laptop, he discovered a multitude of new windows had materialized, and to his dismay, his mouse cursor seemed paralyzed, trapped by an unseen force. It was a jarring realization that his laptop had fallen prey to a malicious attack, rendering it virtually unusable. Despite attempts to salvage his system, the damage proved irreversible, causing him to pruchase a new laptop. This event served as a catalyst, propelling him into the realm of computer security and learn about cyber threats and how to defend against them.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-padding-large w3-padding-32 w3-center"></p>
+      <p class="w3-padding-large w3-padding-64 w3-center"></p>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Evolution of M.T.D</h1>
+      <p> Initially focused on identifying and mitigating network threats, the project expanded its scope to incorporate the detection and classification of malicious software. This evolution involved augmenting the existing network intrusion detection capabilities with additional features and algorithms specifically tailored to identify malware within network traffic and files. The expansion into malware classification and detection required a multifaceted approach, including deepening the understanding of malware behaviors, collecting datasets containing samples of both benign and malicious software, and implementing sophisticated machine learning models. By integrating these new components into the existing system, the project gained the ability to not only detect and respond to network intrusions but also to identify and categorize various types of malware, thereby enhancing its overall threat detection and mitigation capabilities in the ever-evolving landscape of cybersecurity.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-padding-large w3-padding-32 w3-center"></p>
+      <p class="w3-padding-large w3-padding-64 w3-center"></p>
+    </div>
+  </div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+ function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.transition = "right 0.5s ease";
+    mySidebar.style.right = '0';
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
