@@ -1,0 +1,24 @@
+NSL-KDD Binary (2-class) Network Intrusion Detection
+
+Cross-Validation Scores: (10-Folds)
+[0.99539609 0.99404667 0.99452294 0.99547511 0.99491943 0.99499881
+ 0.99579265 0.99571327 0.99539573 0.99611018]
+
+Mean CV Score: 0.9952370884678189 
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.92      0.78      0.85     12833
+           1       0.76      0.92      0.83      9711
+
+           accuracy                           0.84     22544
+    macro avg       0.84      0.85      0.84     22544
+weighted avg       0.85      0.84      0.84     22544
+
+Confusion Matrix:
+[[10043  2790]
+ [  821  8890]] 
+
+AUC Score: 0.8628436344767264
+MCC Score: 0.6917757662077996
