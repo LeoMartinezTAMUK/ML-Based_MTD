@@ -1,6 +1,8 @@
 # Malware Detection (MD) Scoring Script
 # This script is used for testing the trained machine learning model on new actual (possibly real-time) data
 
+# NOTE pk1 file for Malware Detection was too large to be uploaded to GitHub, can be provided upon request (size is about 115 MB)
+
 import pickle
 import numpy as np
 
