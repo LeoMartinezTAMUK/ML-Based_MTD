@@ -19,7 +19,7 @@ Please see necessary dependencies at the top of each script if you choose to run
 
 ## Overview:
 
-M.T.D. (Multi-Threat Detection) is a comprehensive cybersecurity solution designed to combat the ever-evolving landscape of cyber threats. The project employs a holistic approach, addressing common vulnerabilities with a focus on real-world relevance and practicality. A full detailed report for those interested in the specific details of the design for each machine learning model.
+M.T.D. (Multi-Threat Detection) is a comprehensive cybersecurity solution designed to combat the ever-evolving landscape of cyber threats. The project employs a holistic approach, addressing common vulnerabilities with a focus on real-world relevance and practicality. It provides an Android app utilizing state-of-the-art pretrained machine learning models. A full detailed report for those interested in the specific details of the design for each machine learning model.
 
 ### Features:
 
