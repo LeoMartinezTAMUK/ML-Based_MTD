@@ -4,7 +4,7 @@
 
 **Contact:** Leo: [leo.martinez@students.tamuk.edu](mailto:leo.martinez@students.tamuk.edu), Anthony: [anos.martinez24@gmail.com](mailto:anos.martinez24@gmail.com)
 
-**Created:** Fall 2024 - Spring 2024
+**Created:** Fall 2023 - Spring 2024
 
 ---
 
