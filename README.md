@@ -1,6 +1,6 @@
 # M.T.D. (Multi-Threat Detection):
 
-**Authors:** Leo Martinez III, John Cavazos, Anthony Martinez, Jalen Williams
+**Authors:** Leo Martinez III - [LinkedIn](https://www.linkedin.com/in/leo-martinez-iii/), John Cavazos, Anthony Martinez, Jalen Williams
 
 **Contact:** Leo: [leo.martinez@students.tamuk.edu](mailto:leo.martinez@students.tamuk.edu), Anthony: [anos.martinez24@gmail.com](mailto:anos.martinez24@gmail.com)
 
